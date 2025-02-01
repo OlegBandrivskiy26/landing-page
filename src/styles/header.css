@@ -1,10 +1,10 @@
 header {
   position: relative;
   width: 100%;
-  height: 60vh;
-  background-image: url(../img/main-img.jpg);
+  height: 55vh;
+  background-image: url(../img/main-img.png);
   background-size: cover;
-  background-position: center 39%;
+  background-position: center 80%;
 }
 
 .socialmedias {
@@ -30,6 +30,6 @@ header {
 .facebook {
   background-image: url(../img/facebook.png);
 }
-.telegram {
-  background-image: url(../img/telegram.png);
+.youtube {
+  background-image: url(../img/youtube.svg);
 }
