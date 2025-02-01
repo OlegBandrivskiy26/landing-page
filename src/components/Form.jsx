@@ -16,7 +16,7 @@ const Form = () => {
 
   return (
     <div className="form-container">
-      <h2>Зворотний зв’язок</h2>
+      <h2>Форма зворотнього зв’язок</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">Email</label>
         <input
