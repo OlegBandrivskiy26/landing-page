@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <header>
         <div className="socialmedias">
-            <div className="socialmedias-img instagram"></div>
-            <div className="socialmedias-img facebook"></div>
-            <div className="socialmedias-img telegram"></div>
+            <a href="https://www.instagram.com/shakhovska_lpnu/" target="_blank" rel="noreferrer" className="socialmedias-img instagram"> </a>
+            <a href="https://www.facebook.com/shakhovska.lpnu/" target="_blank" rel="noreferrer" className="socialmedias-img facebook"> </a>
+            <a href="https://www.youtube.com/@Shakhovska_lpnu/" target="_blank" rel="noreferrer" className="socialmedias-img youtube"> </a>
         </div>
     </header>
   )

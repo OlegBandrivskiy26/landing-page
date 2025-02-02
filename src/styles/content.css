@@ -10,6 +10,7 @@
 .title-container {
   width: 100%;
   display: flex;
+  word-break: break-word;
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
@@ -22,8 +23,10 @@
 .btn-download {
   width: 30%;
   height: 80px;
+  margin: auto;
   margin-top: 20px;
-  background-color: rgb(99, 121, 230);
+  display: block;
+  background-color: #4682B4;
   border: none;
   cursor: pointer;
   border-radius: 10px;
@@ -32,11 +35,12 @@
   color: #fff;
 }
 .btn-download:hover {
-  background-color: rgba(99, 121, 230, 0.8);
+  background-color: #396a93;
 }
 .txt-container {
-  width: 70%;
+  width: 90%;
   margin-top: 50px;
+  text-align: justify;
 }
 p {
   font-size: 16px;
