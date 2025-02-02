@@ -23,3 +23,36 @@ footer {
   justify-content: space-between;
   margin-right: 30px;
 }
+@media (max-width: 768px) {
+  footer {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .logo-lpnu {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .copy {
+    margin-bottom: 10px;
+  }
+
+  .socialmedias-footer {
+    width: 100px;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .socialmedias-img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+  }
+}

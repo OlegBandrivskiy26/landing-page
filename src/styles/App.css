@@ -19,3 +19,39 @@
   flex-direction: column;
   font-family: "Montserrat", serif;
 }
+.link-download {
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .content-section {
+    width: 95%;
+    margin-top: 30px;
+  }
+
+  .title-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  .main-title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .btn-download {
+    width: 70%;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .txt-container {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 32px;
+  }
+}

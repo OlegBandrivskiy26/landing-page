@@ -33,3 +33,14 @@ header {
 .youtube {
   background-image: url(../img/youtube.svg);
 }
+@media (max-width: 768px) {
+  .socialmedias {
+    width: 100px;
+    height: 24px;
+  }
+
+  .socialmedias-img {
+    width: 24px;
+    height: 24px;
+  }
+}

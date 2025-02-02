@@ -6,7 +6,7 @@ const Content = () => {
     <section className='content-section'>
         <div className="title-container">
             <h1 className='main-title'>Передвиборча програма  кандидата на пост <br /> директора інституту ІКНІ <br /> Наталії Шаховської </h1>
-            <button className="btn-download">Завантажити програму</button>
+            <button className="btn-download"><a className="link-download" href="/ProektProhramy.docx.pdf" download="Передвиборча програма.pdf">Завантажити програму</a></button>
         </div>
         <div className="txt-container">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis provident dolor doloremque quibusdam nisi accusantium tempora animi ad fugiat voluptates, amet aperiam cupiditate asperiores commodi quidem quo laboriosam rerum eligendi hic dolore facilis minima a expedita quasi. Fugit voluptatem cupiditate tempora! Sit cumque expedita veritatis doloribus deleniti distinctio, perspiciatis, libero voluptas temporibus provident accusantium quia est sunt perferendis corrupti aspernatur delectus alias? Nisi blanditiis quas id nulla aliquid corrupti cumque minus ducimus excepturi rem nostrum sed facilis suscipit voluptatem corporis veritatis ab inventore dolore magni quam.
@@ -17,6 +17,12 @@ const Content = () => {
                 <br/>&nbsp;&nbsp;&nbsp;&nbsp;Repudiandae sunt similique dolor amet velit quibusdam eveniet animi tempore distinctio excepturi quia officiis consectetur expedita saepe, ex facere temporibus nulla sapiente ullam maxime. Doloremque cum natus nesciunt? 
             </p>
         </div>
+        <button 
+          className="btn-download"
+          onClick={() => window.location.href = "mailto:nataliiashakhovska@gmail.com?subject=Запитання&body=Доброго дня, Наталіє! У мене є питання..."}
+        >
+          Поставити запитання
+        </button>
     </section>
   )
 }
